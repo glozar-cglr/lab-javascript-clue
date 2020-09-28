@@ -93,10 +93,8 @@ const weaponsArray = [
 
 // ITERATION 2
 
-let selectRandom = (clueArray) => {
-    let randomIndex = Math.floor(Math.random()*clueArray.length);
-    return clueArray[randomIndex];
-};
+let selectRandom = (clueArray) => clueArray[Math.floor(Math.random()*clueArray.length)];
+    
 
 let pickMystery = () => {
     let mystery = {
